@@ -30,6 +30,8 @@ header {
 	margin-top: 20px;
 }
 .header-button {
+	display: inline-block;
+	text-decoration:  none;
 	color: #072b6f;
 	font-weight: 700;
 	font-size: 18px;
@@ -41,6 +43,12 @@ header {
 	padding-right: 55px;
 	padding-bottom: 17px;
 	margin-top: 33px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.header-button:hover {
+	box-shadow: none;
 }
 header small {
 	font-size: 12px;
@@ -145,6 +153,7 @@ footer {
 	margin-bottom: 13px;
 }
 .footer-button {
+	text-decoration: none;
 	background-color: transparent;
 	border: 1px solid #ffffff;
 	border-radius: 50px;
@@ -155,6 +164,13 @@ footer {
 	padding-bottom: 15px;
 	padding-left: 42px;
 	padding-right: 42px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 
 @media (max-width: 1200px) {
